@@ -1,0 +1,130 @@
+  body {
+      background-color: #000000;
+      margin: auto;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  .container {
+      width: 100%;
+      /* max-width: 960px; */
+      margin: 0 auto;
+      clear: both;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: auto;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      text-decoration: none;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+      text-decoration: none;
+  }
+
+  .sidenav a {
+      padding: 6px 6px 6px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: lightgray;
+      display: block;
+      margin-top: 50px;
+      margin-left: -10px;
+      padding-right: 25px;
+      text-decoration: none;
+  }
+
+  .sidenav a:hover {
+      color: #d53007;
+      text-decoration: none;
+  }
+
+  .main_line {
+      color: lightgray;
+      text-align: right;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .resume_title {
+      margin-top: 100px;
+      font-size: 50px;
+  }
+
+  .sub_title {
+      font-family: 'Waiting for the Sunrise', cursive;
+      font-size: 45px;
+      word-spacing: -5px;
+      letter-spacing: 3px;
+  }
+
+  /* footer {
+      position: fixed;
+      bottom: 0;
+      padding: 10px 0;
+      clear: both;
+      font-size: 25px;
+      text-align: right;
+      background: #991f00;
+      width: 100%;
+      color: lightgray;
+      margin-bottom: 25px;
+  } */
+
+  .background_home {
+      background-image: url("..//img/cat_laptop.jpg");
+      position: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      z-index: -100;
+      background-position: center;
+  }
+
+  /*//////////////////////////////////////////////////////////////////////*/
+
+  @media screen and (max-width: 720px) {
+      .resume_title {
+          margin-top: 50px;
+          font-size: 25px;
+      }
+      .sub_title {
+          font-size: 20px;
+      }
+      footer {
+          font-size: 10px;
+          padding-top: 10px;
+      }
+      .sidenav {
+          padding-top: 15px;
+      }
+      .sidenav a {
+          font-size: 18px;
+      }
+  }
+
+  @media screen and (max-width: 468px) {
+      .resume_title {
+          margin-top: 50px;
+          font-size: 25px;
+      }
+      .sub_title {
+          font-size: 20px;
+      }
+      footer {
+          font-size: 12px;
+          padding-top: 10px;
+      }
+      .sidenav {
+          padding-top: 15px;
+      }
+      .sidenav a {
+          font-size: 18px;
+      }
+  }
