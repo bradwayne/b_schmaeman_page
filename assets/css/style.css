@@ -56,10 +56,10 @@
       font-size: 50px;
   }
 
-  .sub_title {
+  em {
       font-family: 'Waiting for the Sunrise', cursive;
       font-size: 45px;
-      word-spacing: -5px;
+      word-spacing: -10px;
       letter-spacing: 3px;
   }
 
@@ -89,13 +89,17 @@
 
   /*//////////////////////////////////////////////////////////////////////*/
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 768px) {
       .resume_title {
           margin-top: 50px;
-          font-size: 25px;
+          font-size: 45px;
+          padding-right: 20px;
       }
-      .sub_title {
-          font-size: 20px;
+      em {
+          font-size: 35px;
+          word-spacing: -10px;
+          letter-spacing: 3px;
+          padding-right: 20px;
       }
       footer {
           font-size: 10px;
@@ -106,16 +110,19 @@
       }
       .sidenav a {
           font-size: 18px;
+          /* margin-top: 50px; */
       }
   }
 
-  @media screen and (max-width: 468px) {
+  @media screen and (max-width: 668px) {
       .resume_title {
           margin-top: 50px;
-          font-size: 25px;
-      }
-      .sub_title {
           font-size: 20px;
+      }
+      em {
+          font-size: 18px;
+          word-spacing: -5px;
+          letter-spacing: 3px;
       }
       footer {
           font-size: 12px;
@@ -126,8 +133,6 @@
       }
       .sidenav a {
           font-size: 18px;
+          margin-top: 35px;
       }
   }
-
-
-  
