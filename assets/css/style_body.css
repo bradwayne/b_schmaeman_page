@@ -86,19 +86,32 @@ em {
     margin-top: 30px;
 }
 
-.lives_number,
-.lives_body {
+.lives_bullets {
     font-size: 20px;
     font-family: 'Waiting for the Sunrise', cursive;
+     word-spacing: -2px;
+     letter-spacing: 2px;
 }
 
 .auth-image {
     float: right;
     width: 350px;
     height: auto;
-    margin-top: -30px;
+    margin-top: -10px;
     padding-left: 5px;
+    transform: scaleX(-1);
 }
+
+th {
+    min-width: 100px;
+    vertical-align: top;
+}
+
+.about_body th,
+.about_body td{
+    padding-bottom: 25px;
+}
+
 
 /*//// experience page //////////////////////////////////////////////////////////////////////////////////*/
 
@@ -276,40 +289,6 @@ figure.effect:hover p {
     transition: transform 2s;
 }
 
-/* .image {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-}
-
-.framework:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-} */
-
 /*//// contact page /////////////////////////////////////////////////////////////////////////////////*/
 
 .contact_info {
@@ -320,21 +299,11 @@ figure.effect:hover p {
     margin-left: 60%;
 }
 
-/* .contact_title {
-    margin-left: 60px;
-} */
-
 .home_address,
 .email_address,
 .github_repositiry {
     margin-left: 5px;
 }
-
-/* .pdf_resume,
-.linkedin_address,
-.phone_number {
-    margin-left: 40px;
-} */
 
 .hr_line_break {
     border-bottom: 1px solid #595959;
@@ -441,6 +410,11 @@ footer {
     .lives_body {
         font-size: 15px;
     }
+    .port-container {
+        max-width: auto;
+        padding: 40px 80px;
+        margin-left: 60px;
+    }
 }
 
 @media screen and (max-width: 668px) {
@@ -467,5 +441,10 @@ footer {
     .email_address,
     .github_repositiry {
         padding-left: 13px;
+    }
+    .port-container {
+        max-width: auto;
+        padding: 40px 40px;
+        margin-left: 60px;
     }
 }
