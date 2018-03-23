@@ -52,7 +52,7 @@ body {
 
 em {
     font-family: 'Waiting for the Sunrise', cursive;
-    font-size: 30px;
+    font-size: 27px;
     word-spacing: -8px;
     letter-spacing: 2px;
 }
@@ -89,17 +89,35 @@ em {
 .lives_bullets {
     font-size: 20px;
     font-family: 'Waiting for the Sunrise', cursive;
-     word-spacing: -2px;
-     letter-spacing: 2px;
+    word-spacing: -2px;
+    letter-spacing: 2px;
+    opacity: 1;
+    z-index: 1;
+    text-shadow: 0 0 1px black, 0 0 5px white;
 }
 
-.auth-image {
+.profile-image-full {
     float: right;
-    width: 350px;
+    width: 600px;
     height: auto;
-    margin-top: -10px;
-    padding-left: 5px;
+    margin-top: 50px;
     transform: scaleX(-1);
+    position: relative;
+    opacity: 1;
+    z-index: -1;
+    display: block;
+}
+
+.profile-image-bust {
+    float: right;
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+    transform: scaleX(-1);
+    position: relative;
+    opacity: 1;
+    z-index: -1;
+    display: none;
 }
 
 th {
@@ -108,10 +126,9 @@ th {
 }
 
 .about_body th,
-.about_body td{
+.about_body td {
     padding-bottom: 25px;
 }
-
 
 /*//// experience page //////////////////////////////////////////////////////////////////////////////////*/
 
@@ -150,6 +167,7 @@ th {
     font-size: 15px;
     margin-top: 5px;
     line-height: 30px;
+    margin-bottom: 50px;
 }
 
 /*//// portfolio page //////////////////////////////////////////////////////////////////////////////////*/
@@ -173,7 +191,7 @@ th {
     color: #FFF;
     font-weight: 600;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #projects figure figcaption {
@@ -305,6 +323,10 @@ figure.effect:hover p {
     margin-left: 5px;
 }
 
+.foot-padding {
+    margin-bottom: 50px;
+}
+
 .hr_line_break {
     border-bottom: 1px solid #595959;
     width: 60%;
@@ -358,7 +380,7 @@ footer {
     background: #991f00;
     width: 100%;
     height: 40px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .background_opac {
@@ -375,11 +397,27 @@ footer {
 
 /*//// mobile responsive /////////////////////////////////////////////////////////////////////////////////*/
 
+@media screen and (max-width: 1128px) {
+    .port-container {
+        max-width: auto;
+        padding: 40px 110px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .port-container {
+        max-width: auto;
+        padding: 40px 170px;
+        margin-left: 60px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .name {
         font-size: 20px;
     }
-    em {
+    .cat-text {
         font-family: 'Waiting for the Sunrise', cursive;
         font-size: 24px;
         word-spacing: -8px;
@@ -412,8 +450,30 @@ footer {
     }
     .port-container {
         max-width: auto;
-        padding: 40px 80px;
+        padding: 40px 120px;
         margin-left: 60px;
+    }
+    .profile-image-full {
+        float: right;
+        width: 600px;
+        height: auto;
+        margin-top: 32px;
+        transform: scaleX(-1);
+        position: relative;
+        opacity: 1;
+        z-index: -1;
+        display: none;
+    }
+    .profile-image-bust {
+        float: right;
+        width: 600px;
+        height: auto;
+        margin-top: -50px;
+        transform: scaleX(-1);
+        position: relative;
+        opacity: 1;
+        z-index: -1;
+        display: block;
     }
 }
 
@@ -446,5 +506,58 @@ footer {
         max-width: auto;
         padding: 40px 40px;
         margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .port-container {
+        max-width: auto;
+        padding: 40px 30px;
+        margin-left: 60px;
+    }
+    #projects figure .icon span {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 10px;
+    }
+    #projects figure .icon {
+        background: #595959;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 38px;
+        height: 38px;
+    }
+    p {
+        font-size: 12px;
+    }
+    #projects figure h3 {
+        color: #FFF;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .profile-image-full {
+        float: right;
+        width: 300px;
+        height: auto;
+        margin-top: 32px;
+        transform: scaleX(-1);
+        position: relative;
+        opacity: 1;
+        z-index: -1;
+        display: none;
+    }
+    .profile-image-bust {
+        float: right;
+        width: 300px;
+        height: auto;
+        margin-top: -50px;
+        transform: scaleX(-1);
+        position: relative;
+        opacity: 1;
+        z-index: -1;
+        display: block;
     }
 }
