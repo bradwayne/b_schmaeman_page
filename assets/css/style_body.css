@@ -93,11 +93,16 @@ em {
     letter-spacing: 2px;
     opacity: 1;
     z-index: 1;
-    text-shadow: 0 0 1px black, 0 0 5px white;
 }
 
 .lives-num {
     margin-bottom: 5px;
+    color: #991f00;
+    text-shadow: 0 0 1px #991f00, 0 0 5px white;
+}
+
+.lives-quote {
+    text-shadow: 0 0 1px black, 0 0 5px white;
 }
 
 .profile-image-full {
