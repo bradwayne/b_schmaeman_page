@@ -415,6 +415,28 @@ footer {
         padding: 40px 170px;
         margin-left: 60px;
     }
+    .profile-image-full {
+        float: right;
+        width: 600px;
+        height: auto;
+        margin-top: 32px;
+        transform: scaleX(-1);
+        position: relative;
+        opacity: 1;
+        z-index: -1;
+        display: none;
+    }
+    .profile-image-bust {
+        float: right;
+        width: 600px;
+        height: auto;
+        margin-top: -35px;
+        transform: scaleX(-1);
+        position: relative;
+        opacity: 1;
+        z-index: -1;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -472,7 +494,7 @@ footer {
         float: right;
         width: 600px;
         height: auto;
-        margin-top: -50px;
+        margin-top: -35px;
         transform: scaleX(-1);
         position: relative;
         opacity: 1;
