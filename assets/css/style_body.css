@@ -109,7 +109,7 @@ em {
     float: right;
     width: 600px;
     height: auto;
-    margin-top: 75px;
+    margin-top: 85px;
     transform: scaleX(-1);
     position: relative;
     opacity: 1;
@@ -424,7 +424,7 @@ footer {
         float: right;
         width: 600px;
         height: auto;
-        margin-top: 32px;
+        margin-top: 33px;
         transform: scaleX(-1);
         position: relative;
         opacity: 1;
@@ -488,7 +488,7 @@ footer {
         float: right;
         width: 600px;
         height: auto;
-        margin-top: 32px;
+        margin-top: 33px;
         transform: scaleX(-1);
         position: relative;
         opacity: 1;
