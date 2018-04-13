@@ -1,8 +1,7 @@
 ## Welcome to my profile page
 
 Please visit my online profile page at
-# [bradley-schmaeman.com](https://bradwayne.github.io/b_schmaeman_page/)
-## no time for a cat nap
+# [bradley schmaeman -](https://bradwayne.github.io/b_schmaeman_page/) ## no time for a cat nap
 
 ## About Me
 
