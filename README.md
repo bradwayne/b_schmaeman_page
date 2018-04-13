@@ -1,8 +1,7 @@
 ## Welcome to my profile page
 
 Please visit my online profile page at
-# [bradley schmaeman -](https://bradwayne.github.io/b_schmaeman_page/) 
-## no time for a cat nap
+# [bradley schmaeman](https://bradwayne.github.io/b_schmaeman_page/) - no time for a cat nap
 
 ## About Me
 
@@ -36,13 +35,13 @@ Please visit my online profile page at
 
     * **__Course - 24 Week Web Development Bootcamp Program__**
 
-            Case Western Reserve University (CWRU) Coding Boot Camp is a 24-week, full-stack web development course. The curriculum included: HTML, Css, JavaScript, jQuery, Handlebars, Bootstrap, Express.js,React.js, Node.js, MongoDB, MySQL, Robo 3T, Git, Heroku, and more. This course gave me the overall understanding of full-stack development and the knowledge and ability to create a front-end web application with a functioning back-end database.
+    Case Western Reserve University (CWRU) Coding Boot Camp is a 24-week, full-stack web development course. The curriculum included: HTML, Css, JavaScript, jQuery, Handlebars, Bootstrap, Express.js,React.js, Node.js, MongoDB, MySQL, Robo 3T, Git, Heroku, and more. This course gave me the overall understanding of full-stack development and the knowledge and ability to create a front-end web application with a functioning back-end database.
 
 * **Lakeland Community College / Kirtland, Ohio / August 1997 - June 2000**
     
     * **__Associates of Applied Business in Graphic Design__**
 
-            The mission of Lakeland's Associates in Graphic Design Program was to provide students with the environment, knowledge and skills to succeed in the various areas of the graphics industry. Also, to enhance the skill levels of working professionals who want to advance in their chosen area of the field, whether in design, advertising or production. They provided me the typography, organization and layout stills to start my graphic design career.
+    The mission of Lakeland's Associates in Graphic Design Program was to provide students with the environment, knowledge and skills to succeed in the various areas of the graphics industry. Also, to enhance the skill levels of working professionals who want to advance in their chosen area of the field, whether in design, advertising or production. They provided me the typography, organization and layout stills to start my graphic design career.
 
 ### Employment - **_groomer... i was my only client_**
 
@@ -50,7 +49,7 @@ Please visit my online profile page at
 
     * **__Senior Graphic Designer / Production Coordinator__**
 
-            The Mayfield Group advertising bureau specializes in working with retailers, service companies, and other types of businesses to construct and implement a custom sales plan that builds dollar volume and establishes a positive brand. Using Adobe Creative Suite my responsibilities included collaboration with the client on promotional projects and worked up design layouts per their needs. I was also responsible for the printing, finishing, shipping and installing if necessary ie. vehicle graphics of those materials as well. From start to finish I would continue to keep the client abreast of the design and production progress.
+    The Mayfield Group advertising bureau specializes in working with retailers, service companies, and other types of businesses to construct and implement a custom sales plan that builds dollar volume and establishes a positive brand. Using Adobe Creative Suite my responsibilities included collaboration with the client on promotional projects and worked up design layouts per their needs. I was also responsible for the printing, finishing, shipping and installing if necessary ie. vehicle graphics of those materials as well. From start to finish I would continue to keep the client abreast of the design and production progress.
 
 
 
