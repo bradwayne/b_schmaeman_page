@@ -1,9 +1,12 @@
-## Welcome to me profile page
+## Welcome to my profile page
 
 Please visit my online profile page at
 # [bradley-schmaeman.com](https://bradwayne.github.io/b_schmaeman_page/)
+## no time for a cat nap
 
 ## About Me
+
+### bradley - **_a little about my 9 lives_**
 
 **Lives 1 )** always looking to improve my skills and tools to become a better programmer and designer
 
@@ -27,7 +30,7 @@ Please visit my online profile page at
 
 ## Experience
 
-### Education
+### Education - **_there's a technique in using a scratching post_**
 
 * **Case Western Reserve University / Cleveland, Ohio / August 2017 - April 2018**
 
@@ -41,13 +44,15 @@ Please visit my online profile page at
 
     The mission of Lakeland's Associates in Graphic Design Program was to provide students with the environment, knowledge and skills to succeed in the various areas of the graphics industry. Also, to enhance the skill levels of working professionals who want to advance in their chosen area of the field, whether in design, advertising or production. They provided me the typography, organization and layout stills to start my graphic design career.
 
-### Employment
+### Employment - **_groomer... i was my only client_**
 
 * **Mayfield Group Advertising Bureau / Solon, Ohio / September 2005 - March 2016**
 
     * **__Senior Graphic Designer / Production Coordinator__**
 
     The Mayfield Group advertising bureau specializes in working with retailers, service companies, and other types of businesses to construct and implement a custom sales plan that builds dollar volume and establishes a positive brand. Using Adobe Creative Suite my responsibilities included collaboration with the client on promotional projects and worked up design layouts per their needs. I was also responsible for the printing, finishing, shipping and installing if necessary ie. vehicle graphics of those materials as well. From start to finish I would continue to keep the client abreast of the design and production progress.
+
+
 
 
 **_more information on [bradley-schmaeman.com](https://bradwayne.github.io/b_schmaeman_page/)_**
