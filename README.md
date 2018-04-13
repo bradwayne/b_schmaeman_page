@@ -48,3 +48,6 @@ Please visit my online profile page at
     * **__Senior Graphic Designer / Production Coordinator__**
 
     The Mayfield Group advertising bureau specializes in working with retailers, service companies, and other types of businesses to construct and implement a custom sales plan that builds dollar volume and establishes a positive brand. Using Adobe Creative Suite my responsibilities included collaboration with the client on promotional projects and worked up design layouts per their needs. I was also responsible for the printing, finishing, shipping and installing if necessary ie. vehicle graphics of those materials as well. From start to finish I would continue to keep the client abreast of the design and production progress.
+
+
+**_more information on [bradley-schmaeman.com](https://bradwayne.github.io/b_schmaeman_page/)_**
