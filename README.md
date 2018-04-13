@@ -1,9 +1,7 @@
-##Welcome to me profile page
+## Welcome to me profile page
 
-You can find my online profile page at
+Please visit my online profile page at
 # [bradley-schmaeman.com](https://bradwayne.github.io/b_schmaeman_page/)
-
----
 
 ## About Me
 
@@ -25,7 +23,7 @@ You can find my online profile page at
 
 **Lives 9 )** always open to new experiences for growth personally and professionally
 
----
+
 
 ## Experience
 
@@ -43,7 +41,7 @@ You can find my online profile page at
 
     The mission of Lakeland's Associates in Graphic Design Program was to provide students with the environment, knowledge and skills to succeed in the various areas of the graphics industry. Also, to enhance the skill levels of working professionals who want to advance in their chosen area of the field, whether in design, advertising or production. They provided me the typography, organization and layout stills to start my graphic design career.
 
-### Empoyment
+### Employment
 
 * **Mayfield Group Advertising Bureau / Solon, Ohio / September 2005 - March 2016**
 
