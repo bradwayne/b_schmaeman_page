@@ -496,7 +496,7 @@ footer {
     .port-container {
         max-width: auto;
         padding: 40px 40px;
-        margin-left: 60px;
+        margin-left: 52px;
     }
     .sidenav a {
         margin-top: 35px;
@@ -514,6 +514,7 @@ footer {
 @media screen and (max-width: 376px) {
     .port-container {
         padding: 40px 30px;
+        margin-left: 45px;
     }
     #projects figure .icon span {
         font-size: 15px;
