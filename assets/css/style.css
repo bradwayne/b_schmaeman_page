@@ -9,7 +9,6 @@
 
   .container {
       width: 100%;
-      /* max-width: 960px; */
       margin: 0 auto;
       clear: both;
   }
@@ -63,6 +62,21 @@
       letter-spacing: 3px;
   }
 
+  footer {
+      position: fixed;
+      bottom: 0;
+      padding: 15px 0;
+      clear: both;
+      text-align: center;
+      width: 100%;
+      color: lightgray;
+  }
+
+  .copyright {
+      font-family: 'Waiting for the Sunrise', cursive;
+      font-size: 15px;
+  }
+
   .background_home {
       background-image: url("..//img/cat_laptop.jpg");
       position: fixed;
@@ -97,7 +111,6 @@
       }
       .sidenav a {
           font-size: 18px;
-          /* margin-top: 50px; */
       }
   }
 
@@ -115,11 +128,23 @@
           font-size: 12px;
           padding-top: 10px;
       }
-      .sidenav {
-          padding-top: 15px;
-      }
       .sidenav a {
           font-size: 18px;
           margin-top: 35px;
+          padding-right: 18px;
+          padding-left: 25px;
+      }
+      .copyright {
+          font-size: 12px;
+      }
+      
+  }
+
+  @media screen and (max-width: 376px) {
+      .sidenav a {
+          font-size: 18px;
+          margin-top: 35px;
+          padding-right: 15px;
+          padding-left: 25px;
       }
   }
