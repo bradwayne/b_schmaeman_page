@@ -63,7 +63,7 @@
   }
 
   footer {
-      position: fixed;
+      position: absolute;
       bottom: 0;
       padding: 15px 0;
       clear: both;
@@ -73,6 +73,7 @@
   }
 
   .copyright {
+      position: relative;
       font-family: 'Waiting for the Sunrise', cursive;
       font-size: 15px;
   }

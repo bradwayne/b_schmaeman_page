@@ -240,8 +240,9 @@ th {
 }
 
 figure.effect {
-    background: #595959;
+    background: #991f00;
     color: #FFF;
+    box-shadow: 5px 5px 5px grey;
 }
 
 figure.effect img {
