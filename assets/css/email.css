@@ -1,0 +1,31 @@
+.email-form {
+    width: 100%;
+}
+
+.email_container {
+    margin-left: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+form,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+.form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #fcaf9c;
+}
+
+input,
+textarea {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
