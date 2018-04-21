@@ -67,8 +67,8 @@
             </div>
 
             <div class="name body_container">
-                Connect With Me -
-                <em>i'll be in the kitchen begging for treats</em>
+                E-mail Me -
+                <em>gonna to take a bath while i wait</em>
             </div>
         </div>
     </div>
@@ -86,7 +86,7 @@
                                     <input id="inputName" type="text" name="name" placeholder="full name">
                                 <br>
                                     <label for="inputEmail">Email</label>
-                                    <input id="inputEmail" type="email" name="email" placeholder="your email">
+                                    <input id="inputEmail" type="email" name="_replyto" placeholder="your email">
                                 <br>
                                     <label for="inputSubject">Subject</label>
                                     <input id="inputSubject" type="text" name="subject" placeholder="subject">
@@ -95,6 +95,11 @@
                                     <textarea id="inputMessage" type="text" name="message" placeholder="message" rows="5"></textarea>
                                 <br>
                                     <button class="btn submitBtn" type="submit" name="submit" href="contact.html">SEND MAIL</button>
+
+                                    <input type="hidden" name="_next" value="//site.io/contact.html" />
+                                    <input type="hidden" name="_subject" value="New submission!" />
+                                    <input type="hidden" name="_format" value="plain" />
+                                    <input type="text" name="_gotcha" style="display:none" />
                             </form>
                         </div>
                     </div>
