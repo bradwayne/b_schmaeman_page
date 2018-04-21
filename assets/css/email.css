@@ -9,18 +9,19 @@
 }
 
 form,
-input[type=text],
-input[type=email],
+input,
+input,
 textarea {
     display: block;
     width: 100%;
+    border-color: #991f00;
+    border-width: 1px;
 }
 
 .form {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
-    background-color : #b3b3b3;
 }
 
 input,
@@ -34,4 +35,10 @@ button.submitBtn {
     font-weight: bold;
     color: white;
     background-color: #991f00;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Waiting for the Sunrise', cursive;
 }
