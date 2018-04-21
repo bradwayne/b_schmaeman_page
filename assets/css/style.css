@@ -76,7 +76,8 @@
       position: relative;
       font-family: 'Waiting for the Sunrise', cursive;
       font-size: 15px;
-letter-spacing: 2px;  }
+      letter-spacing: 2px;
+  }
 
   .background_home {
       background-image: url("..//img/cat_laptop.jpg");
@@ -138,7 +139,6 @@ letter-spacing: 2px;  }
       .copyright {
           font-size: 12px;
       }
-      
   }
 
   @media screen and (max-width: 376px) {
