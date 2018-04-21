@@ -76,7 +76,7 @@
       position: relative;
       font-family: 'Waiting for the Sunrise', cursive;
       font-size: 15px;
-  }
+letter-spacing: 2px;  }
 
   .background_home {
       background-image: url("..//img/cat_laptop.jpg");
