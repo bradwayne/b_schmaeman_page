@@ -31,13 +31,15 @@ textarea {
     padding-bottom: 5px;
 }
 
-button.submitBtn {
+button.submitBtn,
+button.backBtn {
     font-weight: bold;
     color: white;
     background-color: #595959;
 }
 
-button.submitBtn:hover {
+button.submitBtn:hover,
+button.backBtn:hover {
     color: white;
     background-color: #991f00;
 }
@@ -46,4 +48,12 @@ label {
     font-size: 20px;
     letter-spacing: 1px;
     font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.toEmailAddress {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #595959;
 }

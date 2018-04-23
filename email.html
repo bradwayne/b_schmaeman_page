@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
 
-<!-- 
+    <!-- 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
 
@@ -33,7 +33,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet">
-    
+
 
     <title>bradley_resume</title>
 </head>
@@ -80,24 +80,27 @@
                     <div class="email_container">
                         <div class="form">
                             <form class="email-form" id="contact-form" method="POST" action="https://formspree.io/me@bradley-schmaeman.com">
-                                    <label for="inputName">Name</label>
-                                    <input id="inputName" type="text" name="name" placeholder="full name">
+                                <label for="toEmail">To: </label>
+                                <label for="toEmailAddress" class="toEmailAddress">me@bradley-schmaeman.com</label>
                                 <br>
-                                    <label for="inputEmail">Email</label>
-                                    <input id="inputEmail" type="email" name="_replyto" placeholder="your email">
+                                <label for="inputName">Name</label>
+                                <input id="inputName" type="text" name="name" placeholder="full name">
                                 <br>
-                                    <label for="inputSubject">Subject</label>
-                                    <input id="inputSubject" type="text" name="subject" placeholder="subject">
+                                <label for="inputEmail">Email</label>
+                                <input id="inputEmail" type="email" name="_replyto" placeholder="your email">
                                 <br>
-                                    <label for="inputMessage">Message</label>
-                                    <textarea id="inputMessage" type="text" name="message" placeholder="message" rows="5"></textarea>
+                                <label for="inputSubject">Subject</label>
+                                <input id="inputSubject" type="text" name="subject" placeholder="subject">
                                 <br>
-                                    <button class="btn submitBtn" type="submit" name="submit" href="http://www.bradley-schmaeman.com/contact.html">SEND EMAIL</button>
+                                <label for="inputMessage">Message</label>
+                                <textarea id="inputMessage" type="text" name="message" placeholder="message" rows="5"></textarea>
+                                <br>
+                                <button class="btn submitBtn" type="submit" name="submit" href="http://www.bradley-schmaeman.com/contact.html">SEND EMAIL</button>
 
-                                    <input type="hidden" name="_next" value="http://www.bradley-schmaeman.com/contact.html" />
-                                    <input type="hidden" name="_subject" value="New submission!" />
-                                    <input type="hidden" name="_format" value="plain" />
-                                    <input type="text" name="_gotcha" style="display:none" />
+                                <input type="hidden" name="_next" value="http://www.bradley-schmaeman.com/contact.html" />
+                                <input type="hidden" name="_subject" value="New submission!" />
+                                <input type="hidden" name="_format" value="plain" />
+                                <input type="text" name="_gotcha" style="display:none" />
                             </form>
                         </div>
                     </div>
