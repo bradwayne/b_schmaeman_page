@@ -20,36 +20,6 @@ body {
     margin-left: 60px;
 }
 
-.sidenav {
-    height: 100%;
-    width: auto;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    text-decoration: none;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-    text-decoration: none
-}
-
-.sidenav a {
-    padding: 6px 6px 6px 32px;
-    font-size: 25px;
-    color: lightgray;
-    display: block;
-    margin-top: 50px;
-    margin-left: -10px;
-    padding-right: 25px;
-    text-decoration: none;
-}
-
-.sidenav a:hover {
-    color: #d53007;
-    text-decoration: none;
-}
-
 em {
     font-family: 'Waiting for the Sunrise', cursive;
     font-size: 27px;

@@ -27,7 +27,7 @@
       text-decoration: none;
   }
 
-  .sidenav a {
+  .sidenav a.nav-btn {
       padding: 6px 6px 6px 32px;
       text-decoration: none;
       font-size: 25px;
@@ -39,9 +39,14 @@
       text-decoration: none;
   }
 
-  .sidenav a:hover {
+  .sidenav a.nav-btn:hover {
       color: #d53007;
       text-decoration: none;
+  }
+
+  a.nav-btn:not(:disabled):not(.disabled).active,
+  a.nav-btn:not(:disabled):not(.disabled):active {
+      color: #d53007;
   }
 
   .main_line {
