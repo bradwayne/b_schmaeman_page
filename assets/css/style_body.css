@@ -77,9 +77,9 @@ em {
 
 .profile-image-full {
     float: right;
-    width: 600px;
+    width: 650px;
     height: auto;
-    margin-top: 85px;
+    margin-top: 12px;
     transform: scaleX(-1);
     position: relative;
     opacity: 1;
@@ -407,9 +407,12 @@ footer {
         z-index: -1;
         display: block;
     }
+    .body_container {
+        margin-left: 60px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .name {
         font-size: 20px;
     }
@@ -449,6 +452,9 @@ footer {
         padding: 40px 120px;
         margin-left: 60px;
     }
+    .body_container {
+        margin-left: 70px;
+    }
 }
 
 @media screen and (max-width: 668px) {
@@ -478,14 +484,14 @@ footer {
         margin-left: 50px;
     }
     .body_container {
-        margin-left: 52px;
+        margin-left: 70px;
     }
 }
 
 @media screen and (max-width: 376px) {
     .port-container {
         padding: 40px 30px;
-        margin-left: 45px;
+        margin-left: 65px;
     }
     #projects figure .icon span {
         font-size: 15px;
@@ -525,6 +531,10 @@ footer {
         padding-left: 25px;
     }
     .body_container {
-        margin-left: 48px;
+        margin-left: 70px;
+    }
+
+    .copyright {
+        margin-left: 50px;
     }
 }
