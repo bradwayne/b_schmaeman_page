@@ -135,19 +135,19 @@
           font-size: 12px;
           padding-top: 10px;
       }
-      .sidenav a {
+      .sidenav a#nav-btn {
           font-size: 18px;
           margin-top: 35px;
           padding-right: 18px;
           padding-left: 25px;
       }
       .copyright {
-          font-size: 10px;
+          font-size: 12px;
       }
   }
 
   @media screen and (max-width: 376px) {
-      .sidenav a {
+      .sidenav a#nav-btn {
           font-size: 18px;
           margin-top: 35px;
           padding-right: 15px;

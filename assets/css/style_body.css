@@ -407,12 +407,9 @@ footer {
         z-index: -1;
         display: block;
     }
-    .body_container {
-        margin-left: 60px;
-    }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .name {
         font-size: 20px;
     }
@@ -425,7 +422,7 @@ footer {
     .sidenav {
         padding-top: 15px;
     }
-    .sidenav a {
+    .sidenav a#nav-btn {
         font-size: 18px;
     }
     .course,
@@ -452,9 +449,6 @@ footer {
         padding: 40px 120px;
         margin-left: 60px;
     }
-    .body_container {
-        margin-left: 70px;
-    }
 }
 
 @media screen and (max-width: 668px) {
@@ -475,7 +469,7 @@ footer {
         padding: 40px 40px;
         margin-left: 52px;
     }
-    .sidenav a {
+    .sidenav a#nav-btn {
         margin-top: 35px;
         padding-right: 18px;
         padding-left: 25px;
@@ -484,14 +478,14 @@ footer {
         margin-left: 50px;
     }
     .body_container {
-        margin-left: 70px;
+        margin-left: 52px;
     }
 }
 
 @media screen and (max-width: 376px) {
     .port-container {
         padding: 40px 30px;
-        margin-left: 65px;
+        margin-left: 45px;
     }
     #projects figure .icon span {
         font-size: 15px;
@@ -524,17 +518,13 @@ footer {
         width: 300px;
         margin-top: -20px;
     }
-    .sidenav a {
+    .sidenav a#nav-btn {
         font-size: 18px;
         margin-top: 35px;
         padding-right: 15px;
         padding-left: 25px;
     }
     .body_container {
-        margin-left: 70px;
-    }
-
-    .copyright {
-        margin-left: 50px;
+        margin-left: 48px;
     }
 }
