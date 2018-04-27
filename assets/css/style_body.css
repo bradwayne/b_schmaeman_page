@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
     margin: auto;
+    margin-bottom: 25px;
 }
 
 * {
@@ -8,9 +9,15 @@ body {
     margin: 0;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
+    min-height: 100%;
     margin: 0 auto;
     margin-left: 60px;
     clear: both;
@@ -32,7 +39,7 @@ em {
 .about {
     text-align: center;
     color: lightgray;
-    margin-top: 100px;
+    margin-top: 60px;
     padding-left: 25px;
     padding-right: 25px;
     font-family: 'Waiting for the Sunrise', cursive;
@@ -350,10 +357,13 @@ figure.effect:hover p {
 
 /*//// background ///////////////////////////////////////////////////////////////////////////////////////*/
 
-footer {
-    position: relative;
-    clear: both;
+.foot-bar {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
     background: #991f00;
+    clear: both;
 }
 
 .background_opac {
@@ -413,6 +423,11 @@ footer {
     .name {
         font-size: 20px;
     }
+    em {
+        font-size: 22px;
+        word-spacing: -6px;
+        letter-spacing: 2px;
+    }
     .cat-text {
         font-family: 'Waiting for the Sunrise', cursive;
         font-size: 24px;
@@ -440,10 +455,6 @@ footer {
     .lives_body {
         margin-left: 60px;
     }
-    .lives_number,
-    .lives_body {
-        font-size: 15px;
-    }
     .port-container {
         max-width: auto;
         padding: 40px 120px;
@@ -454,6 +465,14 @@ footer {
 @media screen and (max-width: 668px) {
     .name {
         text-align: center;
+    }
+    em {
+        font-size: 20px;
+        word-spacing: -6px;
+        letter-spacing: 2px;
+    }
+    .lives_bullets {
+        font-size: 15px;
     }
     .contact_info {
         text-align: left;
@@ -480,9 +499,20 @@ footer {
     .body_container {
         margin-left: 52px;
     }
+    figure.effect {
+        box-shadow: 3px 3px 3px grey;
+    }
 }
 
 @media screen and (max-width: 376px) {
+    em {
+        font-size: 20px;
+        word-spacing: -6px;
+        letter-spacing: 2px;
+    }
+    .lives_bullets {
+        font-size: 12px;
+    }
     .port-container {
         padding: 40px 30px;
         margin-left: 45px;

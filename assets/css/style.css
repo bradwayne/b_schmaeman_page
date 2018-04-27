@@ -67,7 +67,7 @@
       letter-spacing: 3px;
   }
 
-  footer {
+  .copyright-footer {
       position: absolute;
       bottom: 0;
       padding: 15px 0;
@@ -116,7 +116,7 @@
       .sidenav {
           padding-top: 15px;
       }
-      .sidenav a {
+      .sidenav a#nav-btn {
           font-size: 18px;
       }
   }
