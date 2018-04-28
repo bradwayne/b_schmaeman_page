@@ -50,10 +50,22 @@ label {
     font-family: 'Waiting for the Sunrise', cursive;
 }
 
-.toEmailAddress {
+.meDotCom {
     font-size: 15px;
     margin-left: 8px;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #595959;
+}
+
+@media screen and (max-width: 376px) {
+    .email_container {
+        margin-left: 50px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+   
+    .meDotCom {
+        font-size: 10px;
+    }
 }
