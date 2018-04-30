@@ -343,18 +343,6 @@ figure.effect:hover p {
     padding-right: 8px;
 }
 
-.in_image {
-    width: 35px;
-    -webkit-filter: grayscale(100%);
-    text-decoration: none;
-}
-
-.in_image a:hover {
-    width: 35px;
-    -webkit-filter: #991f00;
-    text-decoration: none;
-}
-
 /*//// background ///////////////////////////////////////////////////////////////////////////////////////*/
 
 .foot-bar {

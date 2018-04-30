@@ -58,6 +58,9 @@ label {
     color: #595959;
 }
 
+/*//// mobile responsive /////////////////////////////////////////////////////////////////////////////////*/
+
+
 @media screen and (max-width: 376px) {
     .email_container {
         margin-left: 50px;
