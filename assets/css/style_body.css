@@ -377,11 +377,35 @@ figure.effect:hover p {
     .copyright {
         margin-left: 50px;
     }
+
+    
+     /* *,
+     *:before,
+     *:after {
+    
+         /*CSS transitions*/
+         transition-property: none !important;
+         /*CSS transforms*/
+         transform: none !important;
+         /*CSS animations*/
+         animation: none !important;
+     } */
 }
 
 @media screen and (max-width: 991px) {
+    .name {
+        text-align: center;
+    }
     .port-container {
         padding: 40px 170px;
+    }
+    .contact_container {
+        margin-left: 42%;
+    }
+    .home_address,
+    .email_address,
+    .github_repositiry {
+        margin-left: 13px;
     }
     .profile-image-full {
         float: right;
@@ -432,14 +456,7 @@ figure.effect:hover p {
     .job_discription {
         margin-top: 20px;
     }
-    .contact_container {
-        margin-left: 45%;
-    }
-    .home_address,
-    .email_address,
-    .github_repositiry {
-        margin-left: 13px;
-    }
+    
     .lives_body {
         margin-left: 60px;
     }
@@ -469,12 +486,15 @@ figure.effect:hover p {
     .home_address,
     .email_address,
     .github_repositiry {
-        padding-left: 13px;
+        padding-left: 15px;
     }
     .port-container {
         max-width: auto;
         padding: 40px 40px;
         margin-left: 52px;
+    }
+    .contact_container {
+        margin-left: 50%;
     }
     .profile-image-bust {
         float: left;
@@ -495,6 +515,28 @@ figure.effect:hover p {
     }
     figure.effect {
         box-shadow: 3px 3px 3px grey;
+    }
+
+
+    * {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
     }
 }
 
