@@ -82,7 +82,7 @@ em {
     text-shadow: 0 0 1px black, 0 0 5px white;
 }
 
-.profile-image-full {
+img.profile-image-full {
     float: right;
     width: 650px;
     height: auto;
@@ -94,7 +94,7 @@ em {
     display: block;
 }
 
-.profile-image-bust {
+img.profile-image-bust {
     float: right;
     width: 600px;
     height: auto;
@@ -406,7 +406,7 @@ figure.effect:hover p {
     .github_repositiry {
         margin-left: 13px;
     }
-    .profile-image-full {
+    img.profile-image-full {
         float: right;
         width: 650px;
         height: auto;
@@ -417,7 +417,7 @@ figure.effect:hover p {
         z-index: -1;
         display: none;
     }
-    .profile-image-bust {
+    img.profile-image-bust {
         float: right;
         width: 600px;
         height: auto;
