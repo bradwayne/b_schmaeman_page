@@ -369,6 +369,9 @@ figure.effect:hover p {
 /*//// mobile responsive /////////////////////////////////////////////////////////////////////////////////*/
 
 @media screen and (max-width: 1128px) {
+    .lives_bullets {
+        font-size: 19px;
+    }
     .port-container {
         max-width: auto;
         padding: 40px 110px;
@@ -377,6 +380,16 @@ figure.effect:hover p {
     .copyright {
         margin-left: 50px;
     }
+
+    .body_container {
+        margin-left: 90px;
+    }
+
+@media screen and (max-width: 992px) {
+    .contact_container {
+        margin-left: 60%;
+    }
+}
 
 @media screen and (max-width: 991px) {
     .name {
@@ -395,7 +408,7 @@ figure.effect:hover p {
     }
     .profile-image-full {
         float: right;
-        width: 600px;
+        width: 650px;
         height: auto;
         margin-top: 33px;
         transform: scaleX(-1);
@@ -482,12 +495,12 @@ figure.effect:hover p {
     .contact_container {
         margin-left: 50%;
     }
-    .profile-image-bust {
+    /* .profile-image-bust {
         float: left;
         width: 300px;
         margin-left: 130px;
         display: block;
-    }
+    } */
     .sidenav a#nav-btn {
         margin-top: 15px;
         padding-right: 18px;
