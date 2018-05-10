@@ -556,7 +556,7 @@ figure.effect:hover p {
         width: 300px;
         margin-top: 32px;
     }
-    .profile-image-bust {
+    img.profile-image-bust {
         float: right;
         margin-left: 0;
         width: 300px;
