@@ -15,12 +15,9 @@ html {
 }
 
 .container {
-    width: 100%;
     max-width: 960px;
     min-height: 100%;
-    margin: 0 auto;
     margin-left: 60px;
-    clear: both;
 }
 
 .body_container {
@@ -33,8 +30,6 @@ em {
     word-spacing: -8px;
     letter-spacing: 2px;
 }
-
-/*//// about me page /////////////////////////////////////////////////////////////////////////////////////*/
 
 .about {
     text-align: center;
@@ -62,6 +57,8 @@ em {
 .about_body {
     margin-top: 30px;
 }
+
+/*//// about me page /////////////////////////////////////////////////////////////////////////////////////*/
 
 .lives_bullets {
     font-size: 20px;
@@ -104,16 +101,6 @@ img.profile-image-bust {
     opacity: 1;
     z-index: -1;
     display: none;
-}
-
-th {
-    min-width: 100px;
-    vertical-align: top;
-}
-
-.about_body th,
-.about_body td {
-    padding-bottom: 25px;
 }
 
 /*//// experience page //////////////////////////////////////////////////////////////////////////////////*/
@@ -305,7 +292,7 @@ figure.effect:hover p {
 
 .home_address,
 .email_address,
-.github_repositiry {
+.linkedin_address {
     margin-left: 5px;
 }
 
@@ -377,198 +364,166 @@ figure.effect:hover p {
         padding: 40px 110px;
         margin-left: 60px;
     }
-    .copyright {
-        margin-left: 50px;
-    }
-
     .body_container {
-        margin-left: 90px;
-    }
-
-@media screen and (max-width: 992px) {
-    .contact_container {
-        margin-left: 60%;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .name {
-        text-align: center;
-    }
-    .port-container {
-        padding: 40px 170px;
-    }
-    .contact_container {
-        margin-left: 42%;
-    }
-    .home_address,
-    .email_address,
-    .github_repositiry {
-        margin-left: 13px;
-    }
-    img.profile-image-full {
-        float: right;
-        width: 650px;
-        height: auto;
-        margin-top: 33px;
-        transform: scaleX(-1);
-        position: relative;
-        opacity: 1;
-        z-index: -1;
-        display: none;
-    }
-    img.profile-image-bust {
-        float: right;
-        width: 600px;
-        height: auto;
-        margin-top: -35px;
-        transform: scaleX(-1);
-        position: relative;
-        opacity: 1;
-        z-index: -1;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .name {
-        font-size: 20px;
-    }
-    em {
-        font-size: 22px;
-        word-spacing: -6px;
-        letter-spacing: 2px;
-    }
-    .cat-text {
-        font-family: 'Waiting for the Sunrise', cursive;
-        font-size: 24px;
-        word-spacing: -8px;
-        letter-spacing: 2px;
-    }
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a#nav-btn {
-        font-size: 18px;
-    }
-    .course,
-    .job_discription {
-        margin-top: 20px;
-    }
-    
-    .lives_body {
         margin-left: 60px;
     }
-    .port-container {
-        max-width: auto;
-        padding: 40px 120px;
-        margin-left: 60px;
+    @media screen and (max-width: 991px) {
+        .name {
+            text-align: center;
+        }
+        .port-container {
+            padding: 40px 170px;
+        }
+        .contact_container {
+            margin-left: 42%;
+        }
+        .home_address,
+        .email_address,
+        .linkedin_address {
+            margin-left: 13px;
+        }
+        img.profile-image-full {
+            float: right;
+            width: 650px;
+            height: auto;
+            margin-top: 33px;
+            transform: scaleX(-1);
+            position: relative;
+            opacity: 1;
+            z-index: -1;
+            display: none;
+        }
+        img.profile-image-bust {
+            float: right;
+            width: 600px;
+            height: auto;
+            margin-top: -35px;
+            transform: scaleX(-1);
+            position: relative;
+            opacity: 1;
+            z-index: -1;
+            display: block;
+        }
     }
-}
-
-@media screen and (max-width: 668px) {
-    .name {
-        text-align: center;
+    @media screen and (max-width: 768px) {
+        .name {
+            font-size: 20px;
+        }
+        em {
+            font-size: 22px;
+            word-spacing: -6px;
+            letter-spacing: 2px;
+        }
+        .cat-text {
+            font-family: 'Waiting for the Sunrise', cursive;
+            font-size: 24px;
+            word-spacing: -8px;
+            letter-spacing: 2px;
+        }
+        .course,
+        .job_discription {
+            margin-top: 20px;
+        }
+        .lives_body {
+            margin-left: 60px;
+        }
+        .port-container {
+            max-width: auto;
+            padding: 40px 120px;
+            margin-left: 60px;
+        }
     }
-    em {
-        font-size: 20px;
-        word-spacing: -6px;
-        letter-spacing: 2px;
-    }
-    .lives_bullets {
-        font-size: 15px;
-    }
-    .contact_info {
-        text-align: left;
-        margin-left: -48px;
-    }
-    .home_address,
-    .email_address,
-    .github_repositiry {
-        padding-left: 15px;
-    }
-    .port-container {
-        max-width: auto;
-        padding: 40px 40px;
-        margin-left: 52px;
-    }
-    .contact_container {
-        margin-left: 50%;
-    }
-    /* .profile-image-bust {
-        float: left;
-        width: 300px;
-        margin-left: 130px;
-        display: block;
-    } */
-    .sidenav a#nav-btn {
-        margin-top: 15px;
-        padding-right: 18px;
-        padding-left: 25px;
-    }
-    .copyright {
-        margin-left: 50px;
-    }
-    .body_container {
-        margin-left: 52px;
-    }
-    figure.effect {
-        box-shadow: 3px 3px 3px grey;
-    }
-
-@media screen and (max-width: 376px) {
-    em {
-        font-size: 20px;
-        word-spacing: -6px;
-        letter-spacing: 2px;
-    }
-    .lives_bullets {
-        font-size: 12px;
-    }
-    .port-container {
-        padding: 40px 30px;
-        margin-left: 45px;
-    }
-    #projects figure .icon span {
-        font-size: 15px;
-        line-height: 15px;
-        padding: 10px;
-    }
-    #projects figure .icon {
-        background: #595959;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        width: 38px;
-        height: 38px;
-    }
-    p {
-        font-size: 12px;
-    }
-    #projects figure h3 {
-        color: #FFF;
-        font-weight: 600;
-        margin-bottom: 5px;
-        font-size: 15px;
-        margin-top: 10px;
-    }
-    .profile-image-full {
-        width: 300px;
-        margin-top: 32px;
-    }
-    img.profile-image-bust {
-        float: right;
-        margin-left: 0;
-        width: 300px;
-        margin-top: -20px;
-    }
-    .sidenav a#nav-btn {
-        font-size: 18px;
-        margin-top: 35px;
-        padding-right: 15px;
-        padding-left: 25px;
-    }
-    .body_container {
-        margin-left: 48px;
-    }
-}
+    @media screen and (max-width: 668px) {
+        .name {
+            text-align: center;
+        }
+        em {
+            font-size: 20px;
+            word-spacing: -6px;
+            letter-spacing: 2px;
+        }
+        .lives_bullets {
+            font-size: 15px;
+        }
+        .contact_info {
+            text-align: left;
+            margin-left: -48px;
+        }
+        .home_address,
+        .email_address,
+        .linkedin_address {
+            padding-left: 15px;
+        }
+        .port-container {
+            max-width: auto;
+            padding: 40px 40px;
+            margin-left: 52px;
+        }
+        .contact_container {
+            margin-left: 50%;
+        }
+        .copyright {
+            margin-left: 50px;
+        }
+        .body_container {
+            margin-left: 52px;
+        }
+        figure.effect {
+            box-shadow: 3px 3px 3px grey;
+        }
+        img.profile-image-bust {
+            float: left;
+            margin-left: 125px;
+            width: 300px;
+            margin-top: -20px;
+        }
+        @media screen and (max-width: 376px) {
+            em {
+                font-size: 20px;
+                word-spacing: -6px;
+                letter-spacing: 2px;
+            }
+            .lives_bullets {
+                font-size: 12px;
+            }
+            .port-container {
+                padding: 40px 30px;
+                margin-left: 45px;
+            }
+            #projects figure .icon span {
+                font-size: 15px;
+                line-height: 15px;
+                padding: 10px;
+            }
+            #projects figure .icon {
+                background: #595959;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                width: 38px;
+                height: 38px;
+            }
+            p {
+                font-size: 12px;
+            }
+            #projects figure h3 {
+                color: #FFF;
+                font-weight: 600;
+                margin-bottom: 5px;
+                font-size: 15px;
+                margin-top: 10px;
+            }
+            .profile-image-full {
+                width: 300px;
+                margin-top: 32px;
+            }
+            img.profile-image-bust {
+                float: right;
+                margin-left: 0;
+                width: 300px;
+                margin-top: -20px;
+            }
+            .body_container {
+                margin-left: 48px;
+            }
+        }
