@@ -72,11 +72,13 @@ em {
 .lives-num {
     margin-bottom: 5px;
     color: #991f00;
-    text-shadow: 0 0 1px #991f00, 0 0 5px white;
+    -webkit-text-stroke: 1px #991f00;
+    text-shadow: 0 0 5px white;
 }
 
 .lives-quote {
-    text-shadow: 0 0 1px black, 0 0 5px white;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 1px 3px rgb(226, 226, 225);
 }
 
 img.profile-image-full {
