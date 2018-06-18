@@ -319,6 +319,11 @@ figure.effect:hover p {
     text-align: center;
 }
 
+.contact_link a:visited {
+    color: #595959;
+    text-decoration: none;
+}
+
 .no_bullets {
     list-style-type: none;
 }

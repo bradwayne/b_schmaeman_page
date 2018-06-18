@@ -31,15 +31,13 @@ textarea {
     padding-bottom: 5px;
 }
 
-button.submitBtn,
-button.backBtn {
+button.submitBtn {
     font-weight: bold;
     color: white;
     background-color: #595959;
 }
 
-button.submitBtn:hover,
-button.backBtn:hover {
+button.submitBtn:hover {
     color: white;
     background-color: #991f00;
 }
@@ -60,14 +58,12 @@ label {
 
 /*//// mobile responsive /////////////////////////////////////////////////////////////////////////////////*/
 
-
 @media screen and (max-width: 376px) {
     .email_container {
         margin-left: 50px;
         padding-left: 1px;
         padding-right: 1px;
     }
-   
     .meDotCom {
         font-size: 10px;
     }
