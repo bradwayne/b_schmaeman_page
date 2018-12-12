@@ -45,13 +45,33 @@ Please visit my online profile page at
 
 ### Employment - **_groomer... i was my only client_**
 
+* **Enterprise Data Solutions, Inc. / Cleveland, Ohio / July 2018 - November 2018**
+
+    * **__Front End Web Developer__**
+
+    Enterprise Data Solutions, Inc. is a dynamic and growing innovative technology IT Services 
+    company, providing Cloud Computing Services and Hosted Software Development. We also operate a 
+    highly redundant data center, offering Server Virtualization, Web/Email Hosting, and Data 
+    Management Services, includingBackup, Archive and Disaster Recovery.
+    EDSI also designs custom software that scales with the growing needs of ones business. My 
+    position was in the hospitality department designing interactive restaurant web menus using 
+    a menu maker software that was designed and updated by EDSI. The menus could be customized 
+    by the restaurant owners online by a drag and drop content functionality. The department 
+    was unfortunately discontinued and turned over to a business partner that specializes in menu 
+    printing and content management.
+
 * **Mayfield Group Advertising Bureau / Solon, Ohio / September 2005 - March 2016**
 
     * **__Senior Graphic Designer / Production Coordinator__**
 
-    The Mayfield Group advertising bureau specializes in working with retailers, service companies, and other types of businesses to construct and implement a custom sales plan that builds dollar volume and establishes a positive brand. Using Adobe Creative Suite my responsibilities included collaboration with the client on promotional projects and worked up design layouts per their needs. I was also responsible for the printing, finishing, shipping and installing if necessary ie. vehicle graphics of those materials as well. From start to finish I would continue to keep the client abreast of the design and production progress.
-
-
+    The Mayfield Group advertising bureau specializes in working with retailers, service companies, 
+    and other types of businesses to construct and implement a custom sales plan that builds dollar 
+    volume and establishes a positive brand. Using Adobe Creative Suite I custom designed eye-popping 
+    promotional campaigns geared for seasonal effectiveness. The materials ranged from poster, banners, 
+    window clings, fliers, brochures, trade show booths, vehicle graphics, animated digital files and 
+    ads for web and email. I was also responsible for the printing and finishing of these pieces as well 
+    as installing if necessary i.e. vehicle or window graphics. Staying is good relations with the clients 
+    and vendors was also a key role for this position.
 
 
 **_more information on [bradley-schmaeman.com](https://bradwayne.github.io/b_schmaeman_page/)_**
